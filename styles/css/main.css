@@ -1,0 +1,111 @@
+body {
+  background-color: lightgray;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2em;
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+main {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 25px 1px darkgray;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1200px;
+}
+
+p {
+  font-size: 1.1em;
+  text-transform: capitalize;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#home h1, #home h2 {
+  text-align: center;
+}
+
+.conBox {
+  padding: 10px 35px;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 50%;;
+}
+
+label {
+  display: none;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+#portfolioPage {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 25px 1px darkgray;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.flexBox {  
+  display: flex;
+  justify-content: space-around;
+}
+
+#portfolioPage h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#portfolioPage img {
+  align-self: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
