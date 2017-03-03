@@ -60,7 +60,7 @@
 
                 <label for="message"></label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave a brief message..."></textarea>
-                
+
                 <button type="button">Contact Me</button>
 
             </form>
@@ -73,7 +73,7 @@
 
             <div class="flexBox">
 
-                <img src="images/Screen%20Shot%202017-03-03%20at%2010.25.06%20AM.png" alt="The Landscapers" class="openModal"/>
+                <img src="images/Screen%20Shot%202017-03-03%20at%2010.25.06%20AM.png" alt="The Landscapers" class="openModal" />
                 <img src="http://placehold.it/350x150" alt="" />
                 <img src="http://placehold.it/350x150" alt="" />
 
@@ -102,7 +102,21 @@
         </div>
 
     </main>
-    
+
+    <div id="modal">
+        <div class="modalBox">
+            <div class="close"></div>
+
+            <script id="entry-template" type="text/x-handlebars-template">
+                <div class="entry">
+                    <h1>{{title}}</h1>
+                    <img src="{{image}}" alt="{{title}}">
+                    <p>{{body}}</p>
+                </div>
+            </script>
+        </div>
+    </div>
+
     <footer>&copy; 2017</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

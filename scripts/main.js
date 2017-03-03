@@ -3,13 +3,15 @@ $(document).ready(function () {
     $('#about').hide();
     $('#contact').hide();
     $('#portfolioPage').hide();
-    
+    $('#modal').hide();
+
     $('#homeButton').on('click', function () {
         $('#home').fadeIn(1000);
         $('#about').hide();
         $('#contact').hide();
         $('#portfolioPage').hide();
     });
+    
     $('#aboutButton').on('click', function () {
         $('#about').fadeIn(1000);
         $('#home').hide();
@@ -30,4 +32,13 @@ $(document).ready(function () {
         $('#about').hide();
         $('#home').hide();
     });
+
+    $('.openModal').on('click', function () {
+        $('#modal').show();
+    });
+
+    $('.closeModal').on('click', function () {
+        $('#modal').hide();
+    });
+
 });
