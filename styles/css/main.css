@@ -137,18 +137,6 @@ footer {
 }
 
 /* Modal */
-#modal {
-    background-color: black;
-    opacity: .7;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
-
 .modalBox {
     background-color: green;
     border: 1px solid black;
